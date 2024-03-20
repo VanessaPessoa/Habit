@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "Teste",
+            "password": "teste",
+            "email": "teste@gmail.com"
+        }
+    ],
+    "habits": [
+        {
+            "id": "1",
+            "title": "Correr",
+            "type": "Ginastica",
+            "frequency": "semanal",
+            "days": [
+                "T",
+                "Q"
+            ],
+            "goal": "200",
+            "active": true,
+            "dateCreated": "12/12/12",
+            "userId": "1"
+        }
+    ],
+    "done": [
+        {
+            "id": "1",
+            "habitsId": "1",
+            "userId": "1",
+            "date": "01/12/12"
+        }
+    ]
+}
